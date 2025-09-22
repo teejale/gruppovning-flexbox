@@ -1,0 +1,105 @@
+.bigbox1 {
+  background-color: grey;
+  height: 100px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.blue-box {
+  background-color: blue;
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.purple {
+  background-color: purple;
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+  display: flex;
+}
+
+.blue-box:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.blue-box:nth-of-type(3) {
+  display: flex;
+  justify-content: space-around;
+}
+
+.leftColumn {
+  background-color: gray;
+  width: 650px;
+  height: 525px;
+  margin: 20px;
+  position: relative;
+}
+
+.redBox1 {
+  background-color: red;
+  width: 260px;
+  height: 460px;
+}
+
+.redBox2 {
+  background-color: red;
+  width: 260px;
+  height: 220px;
+  position: absolute;
+  top: 20px;
+  left: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.yellowBox1 {
+  background-color: yellow;
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+}
+
+.yellowBox2 {
+  background-color: yellow;
+  width: 80px;
+  height: 80px;
+  align-self: flex-end;
+  margin-right: 20px;
+}
+
+.redBox3 {
+  background-color: red;
+  width: 260px;
+  height: 220px;
+  position: absolute;
+  top: 50px;
+  left: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.greyBox {
+  background-color: lightgray;
+  width: 80px;
+  height: 80px;
+}
+
+.navyBox {
+  background-color: navy;
+  width: 80px;
+  height: 80px;
+  align-self: flex-end;
+}
+
